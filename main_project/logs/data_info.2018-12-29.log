@@ -1,0 +1,44 @@
+16:53:03.844 [main] INFO  GirlApplication [StartupInfoLogger.java:50] - Starting GirlApplication on ZGC-20150317VUT with PID 37680 (D:\git\spring_boot_project_girl\target\classes started by Administrator in D:\git\spring_boot_project_girl)
+16:53:03.851 [main] INFO  GirlApplication [SpringApplication.java:663] - The following profiles are active: dev
+16:53:48.979 [main] INFO  GirlApplication [StartupInfoLogger.java:50] - Starting GirlApplication on ZGC-20150317VUT with PID 52452 (D:\git\spring_boot_project_girl\target\classes started by Administrator in D:\git\spring_boot_project_girl)
+16:53:48.982 [main] INFO  GirlApplication [SpringApplication.java:663] - The following profiles are active: dev
+16:55:27.071 [main] INFO  GirlApplication [StartupInfoLogger.java:50] - Starting GirlApplication on ZGC-20150317VUT with PID 65172 (D:\git\spring_boot_project_girl\target\classes started by Administrator in D:\git\spring_boot_project_girl)
+16:55:27.075 [main] INFO  GirlApplication [SpringApplication.java:663] - The following profiles are active: dev
+16:55:32.024 [main] INFO  GirlApplication [StartupInfoLogger.java:59] - Started GirlApplication in 5.301 seconds (JVM running for 6.434)
+17:06:25.152 [main] INFO  GirlApplication [StartupInfoLogger.java:50] - Starting GirlApplication on ZGC-20150317VUT with PID 56932 (D:\git\spring_boot_project_girl\target\classes started by Administrator in D:\git\spring_boot_project_girl)
+17:06:25.155 [main] INFO  GirlApplication [SpringApplication.java:663] - The following profiles are active: dev
+17:06:30.279 [main] INFO  GirlApplication [StartupInfoLogger.java:59] - Started GirlApplication in 5.472 seconds (JVM running for 6.58)
+17:10:00.220 [main] INFO  GirlApplication [StartupInfoLogger.java:50] - Starting GirlApplication on ZGC-20150317VUT with PID 63312 (D:\git\spring_boot_project_girl\target\classes started by Administrator in D:\git\spring_boot_project_girl)
+17:10:00.225 [main] INFO  GirlApplication [SpringApplication.java:663] - The following profiles are active: dev
+17:10:05.222 [main] INFO  GirlApplication [StartupInfoLogger.java:59] - Started GirlApplication in 5.342 seconds (JVM running for 6.473)
+17:12:20.008 [main] INFO  GirlApplication [StartupInfoLogger.java:50] - Starting GirlApplication on ZGC-20150317VUT with PID 41844 (D:\git\spring_boot_project_girl\target\classes started by Administrator in D:\git\spring_boot_project_girl)
+17:12:20.012 [main] INFO  GirlApplication [SpringApplication.java:663] - The following profiles are active: dev
+17:12:24.970 [main] INFO  GirlApplication [StartupInfoLogger.java:59] - Started GirlApplication in 5.299 seconds (JVM running for 6.381)
+17:15:12.727 [main] INFO  GirlApplication [StartupInfoLogger.java:50] - Starting GirlApplication on ZGC-20150317VUT with PID 31220 (D:\git\spring_boot_project_girl\target\classes started by Administrator in D:\git\spring_boot_project_girl)
+17:15:12.731 [main] INFO  GirlApplication [SpringApplication.java:663] - The following profiles are active: dev
+17:15:17.714 [main] INFO  GirlApplication [StartupInfoLogger.java:59] - Started GirlApplication in 5.368 seconds (JVM running for 6.433)
+17:15:33.679 [main] INFO  GirlApplication [StartupInfoLogger.java:50] - Starting GirlApplication on ZGC-20150317VUT with PID 58900 (D:\git\spring_boot_project_girl\target\classes started by Administrator in D:\git\spring_boot_project_girl)
+17:15:33.682 [main] INFO  GirlApplication [SpringApplication.java:663] - The following profiles are active: dev
+17:15:38.676 [main] INFO  GirlApplication [StartupInfoLogger.java:59] - Started GirlApplication in 5.307 seconds (JVM running for 6.434)
+17:16:29.541 [main] INFO  GirlApplication [StartupInfoLogger.java:50] - Starting GirlApplication on ZGC-20150317VUT with PID 41944 (D:\git\spring_boot_project_girl\target\classes started by Administrator in D:\git\spring_boot_project_girl)
+17:16:29.546 [main] INFO  GirlApplication [SpringApplication.java:663] - The following profiles are active: dev
+17:16:34.525 [main] INFO  GirlApplication [StartupInfoLogger.java:59] - Started GirlApplication in 5.308 seconds (JVM running for 6.395)
+17:23:54.042 [main] INFO  GirlApplication [StartupInfoLogger.java:50] - Starting GirlApplication on ZGC-20150317VUT with PID 67724 (D:\git\spring_boot_project_girl\target\classes started by Administrator in D:\git\spring_boot_project_girl)
+17:23:54.045 [main] INFO  GirlApplication [SpringApplication.java:663] - The following profiles are active: dev
+17:23:59.266 [main] INFO  GirlApplication [StartupInfoLogger.java:59] - Started GirlApplication in 5.543 seconds (JVM running for 6.622)
+17:26:01.380 [main] INFO  GirlApplication [StartupInfoLogger.java:50] - Starting GirlApplication on ZGC-20150317VUT with PID 47332 (D:\git\spring_boot_project_girl\target\classes started by Administrator in D:\git\spring_boot_project_girl)
+17:26:01.384 [main] INFO  GirlApplication [SpringApplication.java:663] - The following profiles are active: dev
+17:26:06.336 [main] INFO  GirlApplication [StartupInfoLogger.java:59] - Started GirlApplication in 5.366 seconds (JVM running for 6.486)
+17:27:41.566 [main] INFO  GirlApplication [StartupInfoLogger.java:50] - Starting GirlApplication on ZGC-20150317VUT with PID 1240 (D:\git\spring_boot_project_girl\target\classes started by Administrator in D:\git\spring_boot_project_girl)
+17:27:41.569 [main] INFO  GirlApplication [SpringApplication.java:663] - The following profiles are active: dev
+17:27:46.695 [main] INFO  GirlApplication [StartupInfoLogger.java:59] - Started GirlApplication in 5.467 seconds (JVM running for 6.515)
+17:28:57.369 [main] INFO  GirlApplication [StartupInfoLogger.java:50] - Starting GirlApplication on ZGC-20150317VUT with PID 18528 (D:\git\spring_boot_project_girl\target\classes started by Administrator in D:\git\spring_boot_project_girl)
+17:28:57.373 [main] INFO  GirlApplication [SpringApplication.java:663] - The following profiles are active: dev
+17:29:02.309 [main] INFO  GirlApplication [StartupInfoLogger.java:59] - Started GirlApplication in 5.336 seconds (JVM running for 6.401)
+19:15:49.022 [main] INFO  GirlApplication [StartupInfoLogger.java:50] - Starting GirlApplication on ZGC-20150317VUT with PID 66792 (D:\git\spring_boot_project_girl\target\classes started by Administrator in D:\git\spring_boot_project_girl)
+19:15:49.026 [main] INFO  GirlApplication [SpringApplication.java:663] - The following profiles are active: dev
+19:16:37.272 [main] INFO  GirlApplication [StartupInfoLogger.java:50] - Starting GirlApplication on ZGC-20150317VUT with PID 55300 (D:\git\spring_boot_project_girl\target\classes started by Administrator in D:\git\spring_boot_project_girl)
+19:16:37.276 [main] INFO  GirlApplication [SpringApplication.java:663] - The following profiles are active: dev
+19:17:03.624 [main] INFO  GirlApplication [StartupInfoLogger.java:50] - Starting GirlApplication on ZGC-20150317VUT with PID 49896 (D:\git\spring_boot_project_girl\target\classes started by Administrator in D:\git\spring_boot_project_girl)
+19:17:03.628 [main] INFO  GirlApplication [SpringApplication.java:663] - The following profiles are active: dev
+19:17:08.675 [main] INFO  GirlApplication [StartupInfoLogger.java:59] - Started GirlApplication in 5.402 seconds (JVM running for 6.521)

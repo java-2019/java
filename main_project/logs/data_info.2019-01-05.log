@@ -1,0 +1,4 @@
+17:52:32.256 [main] INFO  GirlApplication [StartupInfoLogger.java:50] - Starting GirlApplication on ZGC-20150317VUT with PID 5128 (D:\git\spring_boot_project_girl\target\classes started by Administrator in D:\git\spring_boot_project_girl)
+17:52:32.262 [main] INFO  GirlApplication [SpringApplication.java:663] - The following profiles are active: dev
+17:53:49.973 [main] INFO  GirlApplication [StartupInfoLogger.java:50] - Starting GirlApplication on ZGC-20150317VUT with PID 14160 (D:\git\spring_boot_project_girl\target\classes started by Administrator in D:\git\spring_boot_project_girl)
+17:53:49.978 [main] INFO  GirlApplication [SpringApplication.java:663] - The following profiles are active: dev

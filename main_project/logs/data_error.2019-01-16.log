@@ -1,0 +1,60 @@
+10:36:18.959 [Thread-500] ERROR PushMessageRocketMqProducer [PushMessageRocketMqProducer.java:66] - send message error: topic=CreateOrderTopic, tag=Order, keys=20190116103618197, msg=Send [3] times, still failed, cost [41]ms, Topic: CreateOrderTopic, BrokersSent: [ZGC-20150317VUT, ZGC-20150317VUT, ZGC-20150317VUT]
+See http://rocketmq.apache.org/docs/faq/ for further details.
+10:36:19.005 [Thread-497] ERROR PushMessageRocketMqProducer [PushMessageRocketMqProducer.java:66] - send message error: topic=CreateOrderTopic, tag=Order, keys=20190116103618198, msg=Send [3] times, still failed, cost [13]ms, Topic: CreateOrderTopic, BrokersSent: [ZGC-20150317VUT, ZGC-20150317VUT, ZGC-20150317VUT]
+See http://rocketmq.apache.org/docs/faq/ for further details.
+10:36:19.140 [Thread-501] ERROR PushMessageRocketMqProducer [PushMessageRocketMqProducer.java:66] - send message error: topic=CreateOrderTopic, tag=Order, keys=20190116103618199, msg=Send [3] times, still failed, cost [12]ms, Topic: CreateOrderTopic, BrokersSent: [ZGC-20150317VUT, ZGC-20150317VUT, ZGC-20150317VUT]
+See http://rocketmq.apache.org/docs/faq/ for further details.
+10:36:19.196 [Thread-499] ERROR PushMessageRocketMqProducer [PushMessageRocketMqProducer.java:66] - send message error: topic=CreateOrderTopic, tag=Order, keys=20190116103619200, msg=Send [3] times, still failed, cost [18]ms, Topic: CreateOrderTopic, BrokersSent: [ZGC-20150317VUT, ZGC-20150317VUT, ZGC-20150317VUT]
+See http://rocketmq.apache.org/docs/faq/ for further details.
+10:36:19.224 [Thread-498] ERROR PushMessageRocketMqProducer [PushMessageRocketMqProducer.java:66] - send message error: topic=CreateOrderTopic, tag=Order, keys=20190116103619201, msg=Send [3] times, still failed, cost [13]ms, Topic: CreateOrderTopic, BrokersSent: [ZGC-20150317VUT, ZGC-20150317VUT, ZGC-20150317VUT]
+See http://rocketmq.apache.org/docs/faq/ for further details.
+10:46:17.638 [Thread-530] ERROR PushMessageRocketMqProducer [PushMessageRocketMqProducer.java:66] - send message error: topic=CreateOrderTopic, tag=Order, keys=20190116104617212, msg=Send [3] times, still failed, cost [22]ms, Topic: CreateOrderTopic, BrokersSent: [ZGC-20150317VUT, ZGC-20150317VUT, ZGC-20150317VUT]
+See http://rocketmq.apache.org/docs/faq/ for further details.
+10:46:17.660 [Thread-528] ERROR PushMessageRocketMqProducer [PushMessageRocketMqProducer.java:66] - send message error: topic=CreateOrderTopic, tag=Order, keys=20190116104617213, msg=Send [3] times, still failed, cost [15]ms, Topic: CreateOrderTopic, BrokersSent: [ZGC-20150317VUT, ZGC-20150317VUT, ZGC-20150317VUT]
+See http://rocketmq.apache.org/docs/faq/ for further details.
+10:46:17.702 [Thread-529] ERROR PushMessageRocketMqProducer [PushMessageRocketMqProducer.java:66] - send message error: topic=CreateOrderTopic, tag=Order, keys=20190116104617214, msg=Send [3] times, still failed, cost [18]ms, Topic: CreateOrderTopic, BrokersSent: [ZGC-20150317VUT, ZGC-20150317VUT, ZGC-20150317VUT]
+See http://rocketmq.apache.org/docs/faq/ for further details.
+10:46:17.748 [Thread-527] ERROR PushMessageRocketMqProducer [PushMessageRocketMqProducer.java:66] - send message error: topic=CreateOrderTopic, tag=Order, keys=20190116104617215, msg=Send [3] times, still failed, cost [14]ms, Topic: CreateOrderTopic, BrokersSent: [ZGC-20150317VUT, ZGC-20150317VUT, ZGC-20150317VUT]
+See http://rocketmq.apache.org/docs/faq/ for further details.
+10:46:17.797 [Thread-531] ERROR PushMessageRocketMqProducer [PushMessageRocketMqProducer.java:66] - send message error: topic=CreateOrderTopic, tag=Order, keys=20190116104617216, msg=Send [3] times, still failed, cost [15]ms, Topic: CreateOrderTopic, BrokersSent: [ZGC-20150317VUT, ZGC-20150317VUT, ZGC-20150317VUT]
+See http://rocketmq.apache.org/docs/faq/ for further details.
+10:51:50.546 [Thread-541] ERROR PushMessageRocketMqProducer [PushMessageRocketMqProducer.java:66] - send message error: topic=CreateOrderTopic, tag=Order, keys=20190116105150217, msg=Send [3] times, still failed, cost [21]ms, Topic: CreateOrderTopic, BrokersSent: [ZGC-20150317VUT, ZGC-20150317VUT, ZGC-20150317VUT]
+See http://rocketmq.apache.org/docs/faq/ for further details.
+10:51:50.559 [Thread-539] ERROR PushMessageRocketMqProducer [PushMessageRocketMqProducer.java:66] - send message error: topic=CreateOrderTopic, tag=Order, keys=20190116105150218, msg=Send [3] times, still failed, cost [13]ms, Topic: CreateOrderTopic, BrokersSent: [ZGC-20150317VUT, ZGC-20150317VUT, ZGC-20150317VUT]
+See http://rocketmq.apache.org/docs/faq/ for further details.
+10:51:50.609 [Thread-537] ERROR PushMessageRocketMqProducer [PushMessageRocketMqProducer.java:66] - send message error: topic=CreateOrderTopic, tag=Order, keys=20190116105150219, msg=Send [3] times, still failed, cost [14]ms, Topic: CreateOrderTopic, BrokersSent: [ZGC-20150317VUT, ZGC-20150317VUT, ZGC-20150317VUT]
+See http://rocketmq.apache.org/docs/faq/ for further details.
+10:51:50.652 [Thread-538] ERROR PushMessageRocketMqProducer [PushMessageRocketMqProducer.java:66] - send message error: topic=CreateOrderTopic, tag=Order, keys=20190116105150220, msg=Send [3] times, still failed, cost [15]ms, Topic: CreateOrderTopic, BrokersSent: [ZGC-20150317VUT, ZGC-20150317VUT, ZGC-20150317VUT]
+See http://rocketmq.apache.org/docs/faq/ for further details.
+10:51:50.784 [Thread-540] ERROR PushMessageRocketMqProducer [PushMessageRocketMqProducer.java:66] - send message error: topic=CreateOrderTopic, tag=Order, keys=20190116105150221, msg=Send [3] times, still failed, cost [28]ms, Topic: CreateOrderTopic, BrokersSent: [ZGC-20150317VUT, ZGC-20150317VUT, ZGC-20150317VUT]
+See http://rocketmq.apache.org/docs/faq/ for further details.
+11:12:44.478 [Thread-578] ERROR PushMessageRocketMqProducer [PushMessageRocketMqProducer.java:66] - send message error: topic=CreateOrderTopic, tag=Order, keys=20190116111244237, msg=Send [3] times, still failed, cost [16]ms, Topic: CreateOrderTopic, BrokersSent: [ZGC-20150317VUT, ZGC-20150317VUT, ZGC-20150317VUT]
+See http://rocketmq.apache.org/docs/faq/ for further details.
+11:12:44.496 [Thread-581] ERROR PushMessageRocketMqProducer [PushMessageRocketMqProducer.java:66] - send message error: topic=CreateOrderTopic, tag=Order, keys=20190116111244238, msg=Send [3] times, still failed, cost [14]ms, Topic: CreateOrderTopic, BrokersSent: [ZGC-20150317VUT, ZGC-20150317VUT, ZGC-20150317VUT]
+See http://rocketmq.apache.org/docs/faq/ for further details.
+11:12:44.549 [Thread-577] ERROR PushMessageRocketMqProducer [PushMessageRocketMqProducer.java:66] - send message error: topic=CreateOrderTopic, tag=Order, keys=20190116111244239, msg=Send [3] times, still failed, cost [17]ms, Topic: CreateOrderTopic, BrokersSent: [ZGC-20150317VUT, ZGC-20150317VUT, ZGC-20150317VUT]
+See http://rocketmq.apache.org/docs/faq/ for further details.
+11:12:44.586 [Thread-579] ERROR PushMessageRocketMqProducer [PushMessageRocketMqProducer.java:66] - send message error: topic=CreateOrderTopic, tag=Order, keys=20190116111244240, msg=Send [3] times, still failed, cost [15]ms, Topic: CreateOrderTopic, BrokersSent: [ZGC-20150317VUT, ZGC-20150317VUT, ZGC-20150317VUT]
+See http://rocketmq.apache.org/docs/faq/ for further details.
+11:12:44.623 [Thread-580] ERROR PushMessageRocketMqProducer [PushMessageRocketMqProducer.java:66] - send message error: topic=CreateOrderTopic, tag=Order, keys=20190116111244241, msg=Send [3] times, still failed, cost [15]ms, Topic: CreateOrderTopic, BrokersSent: [ZGC-20150317VUT, ZGC-20150317VUT, ZGC-20150317VUT]
+See http://rocketmq.apache.org/docs/faq/ for further details.
+11:15:55.432 [Thread-613] ERROR PushMessageRocketMqProducer [PushMessageRocketMqProducer.java:66] - send message error: topic=CreateOrderTopic, tag=Order, keys=20190116111555252, msg=Send [3] times, still failed, cost [22]ms, Topic: CreateOrderTopic, BrokersSent: [broker-a, broker-a, broker-a]
+See http://rocketmq.apache.org/docs/faq/ for further details.
+11:15:55.472 [Thread-615] ERROR PushMessageRocketMqProducer [PushMessageRocketMqProducer.java:66] - send message error: topic=CreateOrderTopic, tag=Order, keys=20190116111555253, msg=Send [3] times, still failed, cost [13]ms, Topic: CreateOrderTopic, BrokersSent: [broker-a, broker-a, broker-a]
+See http://rocketmq.apache.org/docs/faq/ for further details.
+11:15:55.499 [Thread-612] ERROR PushMessageRocketMqProducer [PushMessageRocketMqProducer.java:66] - send message error: topic=CreateOrderTopic, tag=Order, keys=20190116111555254, msg=Send [3] times, still failed, cost [14]ms, Topic: CreateOrderTopic, BrokersSent: [broker-a, broker-a, broker-a]
+See http://rocketmq.apache.org/docs/faq/ for further details.
+11:15:55.550 [Thread-616] ERROR PushMessageRocketMqProducer [PushMessageRocketMqProducer.java:66] - send message error: topic=CreateOrderTopic, tag=Order, keys=20190116111555255, msg=Send [3] times, still failed, cost [15]ms, Topic: CreateOrderTopic, BrokersSent: [broker-a, broker-a, broker-a]
+See http://rocketmq.apache.org/docs/faq/ for further details.
+11:15:55.619 [Thread-614] ERROR PushMessageRocketMqProducer [PushMessageRocketMqProducer.java:66] - send message error: topic=CreateOrderTopic, tag=Order, keys=20190116111555256, msg=Send [3] times, still failed, cost [14]ms, Topic: CreateOrderTopic, BrokersSent: [broker-a, broker-a, broker-a]
+See http://rocketmq.apache.org/docs/faq/ for further details.
+11:17:27.406 [Thread-623] ERROR PushMessageRocketMqProducer [PushMessageRocketMqProducer.java:66] - send message error: topic=CreateOrderTopic, tag=Order, keys=20190116111724257, msg=Send [3] times, still failed, cost [3022]ms, Topic: CreateOrderTopic, BrokersSent: [broker-a, broker-a, broker-a]
+See http://rocketmq.apache.org/docs/faq/ for further details.
+11:22:16.470 [Thread-23] ERROR PushMessageRocketMqProducer [PushMessageRocketMqProducer.java:66] - send message error: topic=CreateOrderTopic, tag=Order, keys=201901161122161, msg=Send [3] times, still failed, cost [89]ms, Topic: CreateOrderTopic, BrokersSent: [broker-a, broker-a, broker-a]
+See http://rocketmq.apache.org/docs/faq/ for further details.
+11:28:51.449 [Thread-30] ERROR PushMessageRocketMqProducer [PushMessageRocketMqProducer.java:66] - send message error: topic=CreateOrderTopic, tag=Order, keys=201901161128514, msg=Send [3] times, still failed, cost [21]ms, Topic: CreateOrderTopic, BrokersSent: [broker-a, broker-a, broker-a]
+See http://rocketmq.apache.org/docs/faq/ for further details.
+11:35:16.443 [Thread-37] ERROR PushMessageRocketMqProducer [PushMessageRocketMqProducer.java:66] - send message error: topic=CreateOrderTopic, tag=Order, keys=201901161135167, msg=Send [3] times, still failed, cost [19]ms, Topic: CreateOrderTopic, BrokersSent: [broker-a, broker-a, broker-a]
+See http://rocketmq.apache.org/docs/faq/ for further details.
+11:43:15.166 [Thread-43] ERROR PushMessageRocketMqProducer [PushMessageRocketMqProducer.java:66] - send message error: topic=CreateOrderTopic, tag=Order, keys=2019011611431510, msg=Send [3] times, still failed, cost [19]ms, Topic: CreateOrderTopic, BrokersSent: [broker-a, broker-a, broker-a]
+See http://rocketmq.apache.org/docs/faq/ for further details.

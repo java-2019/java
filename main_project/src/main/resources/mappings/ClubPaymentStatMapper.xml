@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.myboot.mapper.ClubPaymentStatMapper" >
+  <resultMap id="xmd_club_payment_stat" type="com.myboot.model.ClubPaymentStat" >
+    <!--   created by lxy@xiaomodo.com   -->
+    <result column="id" property="id" jdbcType="BIGINT" />
+    <result column="club_id" property="clubId" jdbcType="VARCHAR" />
+    <result column="count" property="count" jdbcType="INTEGER" />
+    <result column="amount" property="amount" jdbcType="INTEGER" />
+    <result column="persons" property="persons" jdbcType="INTEGER" />
+    <result column="total_count" property="totalCount" jdbcType="INTEGER" />
+    <result column="total_amount" property="totalAmount" jdbcType="INTEGER" />
+    <result column="total_persons" property="totalPersons" jdbcType="INTEGER" />
+    <result column="stat_date" property="statDate" jdbcType="TIMESTAMP" />
+    <result column="modify_time" property="modifyTime" jdbcType="TIMESTAMP" />
+  </resultMap>
+  <insert id="insert" parameterType="com.myboot.model.ClubPaymentStat" >
+    insert into xmd_club_payment_stat (
+        id,club_id,count,amount,persons,total_count,total_amount,total_persons,stat_date,modify_time
+    )
+    values (
+        #{id,jdbcType=BIGINT},#{clubId,jdbcType=VARCHAR},#{count,jdbcType=INTEGER},#{amount,jdbcType=INTEGER},#{persons,jdbcType=INTEGER},#{totalCount,jdbcType=INTEGER},#{totalAmount,jdbcType=INTEGER},#{totalPersons,jdbcType=INTEGER},#{statDate,jdbcType=TIMESTAMP},#{modifyTime,jdbcType=TIMESTAMP}
+    )
+  </insert>
+
+  <insert id="insertList" parameterType="java.util.List">
+    INSERT INTO xmd_club_payment_stat (club_id,count,amount,persons,total_count,total_amount,total_persons,stat_date,modify_time)
+    VALUES
+    <foreach collection="list" item="item" index="index" separator=",">
+      (#{item.clubId,jdbcType=VARCHAR}, #{item.count,jdbcType=INTEGER}, #{item.amount,jdbcType=INTEGER},
+      #{item.persons,jdbcType=INTEGER}, #{item.totalCount,jdbcType=INTEGER}, #{item.totalAmount,jdbcType=INTEGER},
+      #{item.totalPersons,jdbcType=INTEGER}, #{item.statDate,jdbcType=TIMESTAMP}, #{item.modifyTime,jdbcType=TIMESTAMP})
+    </foreach>
+  </insert>
+
+    <select id="selectByClubIdAndDate" resultMap="xmd_club_payment_stat" parameterType="java.util.HashMap">
+      SELECT *
+      FROM `xmd_club_payment_stat`
+      WHERE 1=1
+      <if test="clubId != null and clubId != ''">
+        and club_id = #{clubId}
+      </if>
+      <if test="startDate != null and startDate != ''">
+        and stat_date &gt;= #{startDate}
+      </if>
+      <if test="endDate != null and endDate != ''">
+        and stat_date  &lt;= #{endDate}
+      </if>
+      ORDER BY stat_date DESC
+    </select>
+
+</mapper>

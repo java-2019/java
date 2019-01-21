@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.myboot.repository.PaymentInDailyDao">
+    <resultMap id="paymentInDailyResultMap" type="PaymentInDaily">
+        <result property="date" column="date" />
+        <result property="clubNum" column="club_num" />
+        <result property="totalNum" column="total_num" />
+        <result property="totalFee" column="total_fee" />
+        <result property="totalAliNum" column="total_ali_num" />
+        <result property="totalAliFee" column="total_ali_fee" />
+        <result property="totalWxNum" column="total_wx_num" />
+        <result property="totalWxFee" column="total_wx_fee" />
+        <result property="consumeNum" column="consume_num" />
+        <result property="consumeFee" column="consume_fee" />
+        <result property="fastPayNum" column="fast_pay_num" />
+        <result property="fastPayFee" column="fast_pay_fee" />
+        <result property="itemCardNum" column="item_card_num" />
+        <result property="itemCardFee" column="item_card_fee" />
+        <result property="itemPackageNum" column="item_package_num" />
+        <result property="itemPackageFee" column="item_package_fee" />
+        <result property="oneYuanNum" column="one_yuan_num" />
+        <result property="oneYuanFee" column="one_yuan_fee" />
+        <result property="orderNum" column="order_num" />
+        <result property="orderFee" column="order_fee" />
+        <result property="paidCouponNum" column="paid_coupon_num" />
+        <result property="paidCouponFee" column="paid_coupon_fee" />
+        <result property="paidOrderNum" column="paid_order_num" />
+        <result property="paidOrderFee" column="paid_order_fee" />
+        <result property="paidServiceItemNum" column="paid_service_item_num" />
+        <result property="paidServiceItemFee" column="paid_service_item_fee" />
+        <result property="serviceItemNum" column="service_item_num" />
+        <result property="serviceItemFee" column="service_item_fee" />
+        <result property="userRechargeNum" column="user_recharge_num" />
+        <result property="userRechargeFee" column="user_recharge_fee" />
+        <result property="userRewardNum" column="user_reward_num" />
+        <result property="userRewardFee" column="user_reward_fee" />
+    </resultMap>
+
+    <parameterMap type="map" id="testPaymentInDailyParameterMap">
+        <parameter property="clubId" mode="IN" jdbcType="VARCHAR" javaType="String"/>
+        <parameter property="payTimeStart" mode="IN" jdbcType="TIMESTAMP" javaType="String"/>
+        <parameter property="payTimeEnd" mode="IN" jdbcType="TIMESTAMP" javaType="String"/>
+    </parameterMap>
+
+    <select id="getPaymentInDaily" statementType="CALLABLE" parameterMap="testPaymentInDailyParameterMap"  resultMap="paymentInDailyResultMap">
+    {CALL payment_in_daily_not_null(?, ?, ?)}
+    </select>
+
+
+    <select id="getPaymentInDailyXml"   resultMap="paymentInDailyResultMap" parameterType="java.util.HashMap">
+        SELECT
+        DATE_FORMAT(pay_time, '%Y%m%d') AS date,
+        COUNT(DISTINCT club_id) AS club_num,
+        COUNT(*) AS total_num,
+        ROUND(SUM(amount) / 100, 2) AS total_fee,
+        SUM(IF(bank_code = 'gd_ali' or bank_code = 'gd_club_ali', 1, 0)) AS total_ali_num,
+        ROUND(SUM(IF(bank_code = 'gd_ali' or bank_code = 'gd_club_ali', amount, 0)) / 100, 2) AS total_ali_fee,
+        SUM(IF(bank_code = 'gd_wx' or bank_code = 'gd_club_wx' or bank_code = 'wx', 1, 0)) AS total_wx_num,
+        ROUND(SUM(IF(bank_code = 'gd_wx' or bank_code = 'gd_club_wx' or bank_code = 'wx', amount, 0)) / 100, 2) AS total_wx_fee,
+        SUM(IF(business_type = 'consume', 1, 0)) AS consume_num,
+        ROUND(SUM(IF(business_type = 'consume', amount, 0)) / 100, 2) AS consume_fee,
+        SUM(IF(business_type = 'fast_pay', 1, 0)) AS fast_pay_num,
+        ROUND(SUM(IF(business_type = 'fast_pay', amount, 0)) / 100, 2) AS fast_pay_fee,
+        SUM(IF(business_type = 'item_card', 1, 0)) AS item_card_num,
+        ROUND(SUM(IF(business_type = 'item_card', amount, 0)) / 100, 2) AS item_card_fee,
+        SUM(IF(business_type = 'item_package', 1, 0)) AS item_package_num,
+        ROUND(SUM(IF(business_type = 'item_package', amount, 0)) / 100, 2) AS item_package_fee,
+        SUM(IF(business_type = 'one_yuan' OR business_type = 'one_yuan_old', 1, 0)) AS one_yuan_num,
+        ROUND(SUM(IF(business_type = 'one_yuan' OR business_type = 'one_yuan_old', amount, 0)) / 100, 2) AS one_yuan_fee,
+        SUM(IF(business_type = 'order', 1, 0)) AS order_num,
+        ROUND(SUM(IF(business_type = 'order', amount, 0)) / 100, 2) AS order_fee,
+        SUM(IF(business_type = 'paid_coupon', 1, 0)) AS paid_coupon_num,
+        ROUND(SUM(IF(business_type = 'paid_coupon', amount, 0)) / 100, 2) AS paid_coupon_fee,
+        SUM(IF(business_type = 'paid_order', 1, 0)) AS paid_order_num,
+        ROUND(SUM(IF(business_type = 'paid_order', amount, 0)) / 100, 2) AS paid_order_fee,
+        SUM(IF(business_type = 'paid_service_item', 1, 0)) AS paid_service_item_num,
+        ROUND(SUM(IF(business_type = 'paid_service_item', amount, 0)) / 100, 2) AS paid_service_item_fee,
+        SUM(IF(business_type = 'service_item', 1, 0)) AS service_item_num,
+        ROUND(SUM(IF(business_type = 'service_item', amount, 0)) / 100, 2) AS service_item_fee,
+        SUM(IF(business_type = 'user_recharge', 1, 0)) AS user_recharge_num,
+        ROUND(SUM(IF(business_type = 'user_recharge', amount, 0)) / 100, 2) AS user_recharge_fee,
+        SUM(IF(business_type = 'user_reward', 1, 0)) AS user_reward_num,
+        ROUND(SUM(IF(business_type = 'user_reward', amount, 0)) / 100, 2) AS user_reward_fee
+        FROM
+        spa_payment
+        WHERE
+        status = 1
+        AND business_type != 'withdrawal'
+        AND spa_payment.club_id =  #{clubId}
+        AND spa_payment.pay_time &gt;= #{payTimeStart}
+        AND spa_payment.pay_time &lt; #{payTimeEnd}
+        GROUP BY date
+        ORDER BY date DESC
+    </select>
+
+</mapper>
