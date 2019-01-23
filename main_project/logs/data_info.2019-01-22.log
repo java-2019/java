@@ -1,0 +1,8 @@
+14:33:03.405 [main] INFO  GirlApplicationTests [StartupInfoLogger.java:50] - Starting GirlApplicationTests on ZGC-20150317VUT with PID 12512 (started by Administrator in D:\git\spring_boot_project_girl)
+14:33:03.412 [main] INFO  GirlApplicationTests [SpringApplication.java:663] - The following profiles are active: dev
+18:21:38.179 [main] INFO  GirlApplication [StartupInfoLogger.java:50] - Starting GirlApplication on ZGC-20150317VUT with PID 17892 (D:\git\spring_boot_project_girl\target\classes started by Administrator in D:\git\spring_boot_project_girl)
+18:21:38.180 [main] INFO  GirlApplication [SpringApplication.java:663] - The following profiles are active: dev
+18:21:43.143 [main] INFO  PushMessageRocketMqProducer [PushMessageRocketMqProducer.java:86] - producer start successfully with group=pushMessageGroup, server=localhost:9876
+18:21:44.580 [main] INFO  GirlApplication [StartupInfoLogger.java:59] - Started GirlApplication in 6.783 seconds (JVM running for 8.124)
+19:21:46.572 [Thread-25] INFO  PushMessageRocketMqProducer [PushMessageRocketMqProducer.java:46] - send message topic=MYDmlMsgTopic, tag=Order, body={"orderId":"201901221921461"}
+19:21:46.641 [Thread-25] INFO  PushMessageRocketMqProducer [PushMessageRocketMqProducer.java:56] - send message suc: SendResult [sendStatus=SEND_OK, msgId=C0A8000E45E418B4AAC2704D2F830000, offsetMsgId=C0A8000E00002A9F000000000000CB85, messageQueue=MessageQueue [topic=MYDmlMsgTopic, brokerName=ZGC-20150317VUT, queueId=1], queueOffset=1]

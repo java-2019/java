@@ -1,14 +1,6 @@
-17:47:09.374 [Thread-25] ERROR PushMessageRocketMqProducer [PushMessageRocketMqProducer.java:66] - send message error: topic=MYDmlMsgTopic, tag=Order, keys=201901181747091, msg=No route info of this topic, MYDmlMsgTopic
+11:56:30.701 [Thread-25] ERROR PushMessageRocketMqProducer [PushMessageRocketMqProducer.java:66] - send message error: topic=MYDmlMsgTopic, tag=Order, keys=201901231156301, msg=Send [3] times, still failed, cost [127]ms, Topic: MYDmlMsgTopic, BrokersSent: [ZGC-20150317VUT, ZGC-20150317VUT, ZGC-20150317VUT]
 See http://rocketmq.apache.org/docs/faq/ for further details.
-17:48:26.317 [Thread-27] ERROR PushMessageRocketMqProducer [PushMessageRocketMqProducer.java:66] - send message error: topic=MYDmlMsgTopic, tag=Order, keys=201901181748262, msg=No route info of this topic, MYDmlMsgTopic
+15:57:45.115 [Thread-19] ERROR PushMessageRocketMqProducer [PushMessageRocketMqProducer.java:66] - send message error: topic=MYDmlMsgTopic, tag=Order, keys=201901231557441, msg=No route info of this topic, MYDmlMsgTopic
 See http://rocketmq.apache.org/docs/faq/ for further details.
-17:52:23.195 [Thread-29] ERROR PushMessageRocketMqProducer [PushMessageRocketMqProducer.java:66] - send message error: topic=MYDmlMsgTopic, tag=Order, keys=201901181752233, msg=No route info of this topic, MYDmlMsgTopic
-See http://rocketmq.apache.org/docs/faq/ for further details.
-17:54:08.117 [Thread-31] ERROR PushMessageRocketMqProducer [PushMessageRocketMqProducer.java:66] - send message error: topic=MYDmlMsgTopic, tag=Order, keys=201901181754084, msg=No route info of this topic, MYDmlMsgTopic
-See http://rocketmq.apache.org/docs/faq/ for further details.
-18:00:35.270 [Thread-33] ERROR PushMessageRocketMqProducer [PushMessageRocketMqProducer.java:66] - send message error: topic=MYDmlMsgTopic, tag=Order, keys=201901181800355, msg=No route info of this topic, MYDmlMsgTopic
-See http://rocketmq.apache.org/docs/faq/ for further details.
-18:00:58.160 [Thread-35] ERROR PushMessageRocketMqProducer [PushMessageRocketMqProducer.java:66] - send message error: topic=MYDmlMsgTopic, tag=Order, keys=201901181800486, msg=No route info of this topic, MYDmlMsgTopic
-See http://rocketmq.apache.org/docs/faq/ for further details.
-18:23:47.569 [Thread-43] ERROR PushMessageRocketMqProducer [PushMessageRocketMqProducer.java:66] - send message error: topic=MYDmlMsgTopic, tag=Order, keys=2019011818234710, msg=Send [3] times, still failed, cost [20]ms, Topic: MYDmlMsgTopic, BrokersSent: [ZGC-20150317VUT, ZGC-20150317VUT, ZGC-20150317VUT]
+17:36:35.423 [DubboServerHandler-192.168.0.14:20880-thread-3] ERROR PushMessageRocketMqProducer [PushMessageRocketMqProducer.java:66] - send message error: topic=MYDmlMsgTopic, tag=Order, keys=201901231736351, msg=No route info of this topic, MYDmlMsgTopic
 See http://rocketmq.apache.org/docs/faq/ for further details.

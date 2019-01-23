@@ -1,23 +1,109 @@
-17:46:50.732 [main] INFO  GirlApplication [StartupInfoLogger.java:50] - Starting GirlApplication on ZGC-20150317VUT with PID 4932 (D:\git\spring_boot_project_girl\target\classes started by Administrator in D:\git\spring_boot_project_girl)
-17:46:50.738 [main] INFO  GirlApplication [SpringApplication.java:663] - The following profiles are active: dev
-17:46:55.923 [main] INFO  PushMessageRocketMqProducer [PushMessageRocketMqProducer.java:86] - producer start successfully with group=pushMessageGroup, server=localhost:9876
-17:46:57.356 [main] INFO  GirlApplication [StartupInfoLogger.java:59] - Started GirlApplication in 6.923 seconds (JVM running for 8.215)
-17:47:09.369 [Thread-25] INFO  PushMessageRocketMqProducer [PushMessageRocketMqProducer.java:46] - send message topic=MYDmlMsgTopic, tag=Order, body={"orderId":"201901181747091"}
-17:48:26.312 [Thread-27] INFO  PushMessageRocketMqProducer [PushMessageRocketMqProducer.java:46] - send message topic=MYDmlMsgTopic, tag=Order, body={"orderId":"201901181748262"}
-17:52:23.190 [Thread-29] INFO  PushMessageRocketMqProducer [PushMessageRocketMqProducer.java:46] - send message topic=MYDmlMsgTopic, tag=Order, body={"orderId":"201901181752233"}
-17:54:08.113 [Thread-31] INFO  PushMessageRocketMqProducer [PushMessageRocketMqProducer.java:46] - send message topic=MYDmlMsgTopic, tag=Order, body={"orderId":"201901181754084"}
-18:00:35.266 [Thread-33] INFO  PushMessageRocketMqProducer [PushMessageRocketMqProducer.java:46] - send message topic=MYDmlMsgTopic, tag=Order, body={"orderId":"201901181800355"}
-18:00:51.047 [Thread-35] INFO  PushMessageRocketMqProducer [PushMessageRocketMqProducer.java:46] - send message topic=MYDmlMsgTopic, tag=Order, body={"orderId":"201901181800486"}
-18:03:09.657 [Thread-37] INFO  PushMessageRocketMqProducer [PushMessageRocketMqProducer.java:46] - send message topic=MYDmlMsgTopic, tag=Order, body={"orderId":"201901181803027"}
-18:03:09.732 [Thread-37] INFO  PushMessageRocketMqProducer [PushMessageRocketMqProducer.java:56] - send message suc: SendResult [sendStatus=SEND_OK, msgId=C0A8000E134418B4AAC25B6BC6090000, offsetMsgId=C0A8000E00002A9F000000000000C669, messageQueue=MessageQueue [topic=MYDmlMsgTopic, brokerName=ZGC-20150317VUT, queueId=2], queueOffset=0]
-18:03:22.377 [Thread-39] INFO  PushMessageRocketMqProducer [PushMessageRocketMqProducer.java:46] - send message topic=MYDmlMsgTopic, tag=Order, body={"orderId":"201901181803228"}
-18:03:22.380 [Thread-39] INFO  PushMessageRocketMqProducer [PushMessageRocketMqProducer.java:56] - send message suc: SendResult [sendStatus=SEND_OK, msgId=C0A8000E134418B4AAC25B6BF7890001, offsetMsgId=C0A8000E00002A9F000000000000C742, messageQueue=MessageQueue [topic=MYDmlMsgTopic, brokerName=ZGC-20150317VUT, queueId=2], queueOffset=1]
-18:03:36.180 [Thread-41] INFO  PushMessageRocketMqProducer [PushMessageRocketMqProducer.java:46] - send message topic=MYDmlMsgTopic, tag=Order, body={"orderId":"201901181803369"}
-18:03:36.186 [Thread-41] INFO  PushMessageRocketMqProducer [PushMessageRocketMqProducer.java:56] - send message suc: SendResult [sendStatus=SEND_OK, msgId=C0A8000E134418B4AAC25B6C2D750002, offsetMsgId=C0A8000E00002A9F000000000000C81B, messageQueue=MessageQueue [topic=MYDmlMsgTopic, brokerName=ZGC-20150317VUT, queueId=1], queueOffset=0]
-18:23:47.548 [Thread-43] INFO  PushMessageRocketMqProducer [PushMessageRocketMqProducer.java:46] - send message topic=MYDmlMsgTopic, tag=Order, body={"orderId":"2019011818234710"}
-18:24:00.278 [Thread-45] INFO  PushMessageRocketMqProducer [PushMessageRocketMqProducer.java:46] - send message topic=MYDmlMsgTopic, tag=Order, body={"orderId":"2019011818240011"}
-18:24:00.293 [Thread-45] INFO  PushMessageRocketMqProducer [PushMessageRocketMqProducer.java:56] - send message suc: SendResult [sendStatus=SEND_OK, msgId=C0A8000E134418B4AAC25B7EDB160004, offsetMsgId=C0A8000E00002A9F000000000000C8F4, messageQueue=MessageQueue [topic=MYDmlMsgTopic, brokerName=ZGC-20150317VUT, queueId=3], queueOffset=0]
-18:24:23.502 [Thread-47] INFO  PushMessageRocketMqProducer [PushMessageRocketMqProducer.java:46] - send message topic=MYDmlMsgTopic, tag=Order, body={"orderId":"2019011818242312"}
-18:24:23.505 [Thread-47] INFO  PushMessageRocketMqProducer [PushMessageRocketMqProducer.java:56] - send message suc: SendResult [sendStatus=SEND_OK, msgId=C0A8000E134418B4AAC25B7F35CF0005, offsetMsgId=C0A8000E00002A9F000000000000C9CF, messageQueue=MessageQueue [topic=MYDmlMsgTopic, brokerName=ZGC-20150317VUT, queueId=3], queueOffset=1]
-18:24:36.089 [Thread-50] INFO  PushMessageRocketMqProducer [PushMessageRocketMqProducer.java:46] - send message topic=MYDmlMsgTopic, tag=Order, body={"orderId":"2019011818243613"}
-18:24:36.091 [Thread-50] INFO  PushMessageRocketMqProducer [PushMessageRocketMqProducer.java:56] - send message suc: SendResult [sendStatus=SEND_OK, msgId=C0A8000E134418B4AAC25B7F66F90006, offsetMsgId=C0A8000E00002A9F000000000000CAAA, messageQueue=MessageQueue [topic=MYDmlMsgTopic, brokerName=ZGC-20150317VUT, queueId=0], queueOffset=0]
+11:53:06.046 [main] INFO  GirlApplication [StartupInfoLogger.java:50] - Starting GirlApplication on ZGC-20150317VUT with PID 12636 (D:\git\spring_boot_project_girl\target\classes started by Administrator in D:\git\spring_boot_project_girl)
+11:53:06.050 [main] INFO  GirlApplication [SpringApplication.java:663] - The following profiles are active: dev
+11:53:12.782 [main] INFO  PushMessageRocketMqProducer [PushMessageRocketMqProducer.java:86] - producer start successfully with group=pushMessageGroup, server=localhost:9876
+11:53:14.750 [main] INFO  GirlApplication [StartupInfoLogger.java:59] - Started GirlApplication in 9.113 seconds (JVM running for 10.739)
+11:56:30.572 [Thread-25] INFO  PushMessageRocketMqProducer [PushMessageRocketMqProducer.java:46] - send message topic=MYDmlMsgTopic, tag=Order, body={"orderId":"201901231156301"}
+12:31:51.714 [main] INFO  GirlApplication [StartupInfoLogger.java:50] - Starting GirlApplication on ZGC-20150317VUT with PID 13756 (D:\git\spring_boot_project_girl\target\classes started by Administrator in D:\git\spring_boot_project_girl)
+12:31:51.715 [main] INFO  GirlApplication [SpringApplication.java:663] - The following profiles are active: dev
+12:31:57.350 [main] INFO  PushMessageRocketMqProducer [PushMessageRocketMqProducer.java:86] - producer start successfully with group=pushMessageGroup, server=localhost:9876
+12:31:58.771 [main] INFO  GirlApplication [StartupInfoLogger.java:59] - Started GirlApplication in 7.386 seconds (JVM running for 8.698)
+15:02:33.019 [main] INFO  GirlApplication [StartupInfoLogger.java:50] - Starting GirlApplication on ZGC-20150317VUT with PID 2416 (D:\git\spring_boot_project_girl\target\classes started by Administrator in D:\git\spring_boot_project_girl)
+15:02:33.019 [main] INFO  GirlApplication [SpringApplication.java:663] - The following profiles are active: dev
+15:02:38.010 [main] INFO  PushMessageRocketMqProducer [PushMessageRocketMqProducer.java:86] - producer start successfully with group=pushMessageGroup, server=localhost:9876
+15:02:39.409 [main] INFO  GirlApplication [StartupInfoLogger.java:59] - Started GirlApplication in 6.735 seconds (JVM running for 10.4)
+15:09:06.176 [main] INFO  GirlApplication [StartupInfoLogger.java:50] - Starting GirlApplication on ZGC-20150317VUT with PID 12316 (D:\git\spring_boot_project_girl\target\classes started by Administrator in D:\git\spring_boot_project_girl)
+15:09:06.177 [main] INFO  GirlApplication [SpringApplication.java:663] - The following profiles are active: dev
+15:09:10.730 [main] INFO  PushMessageRocketMqProducer [PushMessageRocketMqProducer.java:86] - producer start successfully with group=pushMessageGroup, server=localhost:9876
+15:09:12.147 [main] INFO  GirlApplication [StartupInfoLogger.java:59] - Started GirlApplication in 6.359 seconds (JVM running for 7.289)
+15:16:27.063 [main] INFO  GirlApplication [StartupInfoLogger.java:50] - Starting GirlApplication on ZGC-20150317VUT with PID 2896 (D:\git\spring_boot_project_girl\target\classes started by Administrator in D:\git\spring_boot_project_girl)
+15:16:27.064 [main] INFO  GirlApplication [SpringApplication.java:663] - The following profiles are active: dev
+15:16:32.839 [main] INFO  PushMessageRocketMqProducer [PushMessageRocketMqProducer.java:86] - producer start successfully with group=pushMessageGroup, server=localhost:9876
+15:16:34.329 [main] INFO  GirlApplication [StartupInfoLogger.java:59] - Started GirlApplication in 7.733 seconds (JVM running for 10.654)
+15:16:53.115 [main] INFO  GirlApplication [StartupInfoLogger.java:50] - Starting GirlApplication on ZGC-20150317VUT with PID 6056 (D:\git\spring_boot_project_girl\target\classes started by Administrator in D:\git\spring_boot_project_girl)
+15:16:53.115 [main] INFO  GirlApplication [SpringApplication.java:663] - The following profiles are active: dev
+15:16:59.751 [main] INFO  PushMessageRocketMqProducer [PushMessageRocketMqProducer.java:86] - producer start successfully with group=pushMessageGroup, server=localhost:9876
+15:17:01.336 [main] INFO  GirlApplication [StartupInfoLogger.java:59] - Started GirlApplication in 8.571 seconds (JVM running for 10.046)
+15:20:59.965 [main] INFO  GirlApplication [StartupInfoLogger.java:50] - Starting GirlApplication on ZGC-20150317VUT with PID 18996 (D:\git\spring_boot_project_girl\target\classes started by Administrator in D:\git\spring_boot_project_girl)
+15:20:59.966 [main] INFO  GirlApplication [SpringApplication.java:663] - The following profiles are active: dev
+15:21:06.158 [main] INFO  PushMessageRocketMqProducer [PushMessageRocketMqProducer.java:86] - producer start successfully with group=pushMessageGroup, server=localhost:9876
+15:21:07.634 [main] INFO  GirlApplication [StartupInfoLogger.java:59] - Started GirlApplication in 8.074 seconds (JVM running for 9.071)
+15:23:48.615 [main] INFO  GirlApplication [StartupInfoLogger.java:50] - Starting GirlApplication on ZGC-20150317VUT with PID 5784 (D:\git\spring_boot_project_girl\target\classes started by Administrator in D:\git\spring_boot_project_girl)
+15:23:48.616 [main] INFO  GirlApplication [SpringApplication.java:663] - The following profiles are active: dev
+15:23:53.245 [main] INFO  PushMessageRocketMqProducer [PushMessageRocketMqProducer.java:86] - producer start successfully with group=pushMessageGroup, server=localhost:9876
+15:23:54.580 [main] INFO  GirlApplication [StartupInfoLogger.java:59] - Started GirlApplication in 6.368 seconds (JVM running for 7.857)
+15:29:45.120 [main] INFO  GirlApplication [StartupInfoLogger.java:50] - Starting GirlApplication on ZGC-20150317VUT with PID 7204 (D:\git\spring_boot_project_girl\target\classes started by Administrator in D:\git\spring_boot_project_girl)
+15:29:45.120 [main] INFO  GirlApplication [SpringApplication.java:663] - The following profiles are active: dev
+15:29:50.311 [main] INFO  PushMessageRocketMqProducer [PushMessageRocketMqProducer.java:86] - producer start successfully with group=pushMessageGroup, server=localhost:9876
+15:29:52.699 [main] INFO  GirlApplication [StartupInfoLogger.java:59] - Started GirlApplication in 7.911 seconds (JVM running for 9.415)
+15:31:34.242 [main] INFO  GirlApplication [StartupInfoLogger.java:50] - Starting GirlApplication on ZGC-20150317VUT with PID 12492 (D:\git\spring_boot_project_girl\target\classes started by Administrator in D:\git\spring_boot_project_girl)
+15:31:34.243 [main] INFO  GirlApplication [SpringApplication.java:663] - The following profiles are active: dev
+15:31:38.869 [main] INFO  PushMessageRocketMqProducer [PushMessageRocketMqProducer.java:86] - producer start successfully with group=pushMessageGroup, server=localhost:9876
+15:31:40.299 [main] INFO  GirlApplication [StartupInfoLogger.java:59] - Started GirlApplication in 6.404 seconds (JVM running for 8.158)
+15:34:23.900 [main] INFO  GirlApplication [StartupInfoLogger.java:50] - Starting GirlApplication on ZGC-20150317VUT with PID 4488 (D:\git\spring_boot_project_girl\target\classes started by Administrator in D:\git\spring_boot_project_girl)
+15:34:23.901 [main] INFO  GirlApplication [SpringApplication.java:663] - The following profiles are active: dev
+15:34:28.868 [main] INFO  PushMessageRocketMqProducer [PushMessageRocketMqProducer.java:86] - producer start successfully with group=pushMessageGroup, server=localhost:9876
+15:34:30.231 [main] INFO  GirlApplication [StartupInfoLogger.java:59] - Started GirlApplication in 6.634 seconds (JVM running for 8.281)
+15:36:51.472 [main] INFO  GirlApplication [StartupInfoLogger.java:50] - Starting GirlApplication on ZGC-20150317VUT with PID 16348 (D:\git\spring_boot_project_girl\target\classes started by Administrator in D:\git\spring_boot_project_girl)
+15:36:51.473 [main] INFO  GirlApplication [SpringApplication.java:663] - The following profiles are active: dev
+15:36:56.426 [main] INFO  PushMessageRocketMqProducer [PushMessageRocketMqProducer.java:86] - producer start successfully with group=pushMessageGroup, server=localhost:9876
+15:36:57.882 [main] INFO  GirlApplication [StartupInfoLogger.java:59] - Started GirlApplication in 6.719 seconds (JVM running for 7.662)
+15:39:21.676 [main] INFO  GirlApplication [StartupInfoLogger.java:50] - Starting GirlApplication on ZGC-20150317VUT with PID 11580 (D:\git\spring_boot_project_girl\target\classes started by Administrator in D:\git\spring_boot_project_girl)
+15:39:21.677 [main] INFO  GirlApplication [SpringApplication.java:663] - The following profiles are active: dev
+15:39:26.342 [main] INFO  PushMessageRocketMqProducer [PushMessageRocketMqProducer.java:86] - producer start successfully with group=pushMessageGroup, server=localhost:9876
+15:39:27.762 [main] INFO  GirlApplication [StartupInfoLogger.java:59] - Started GirlApplication in 6.395 seconds (JVM running for 7.515)
+15:41:34.127 [main] INFO  GirlApplication [StartupInfoLogger.java:50] - Starting GirlApplication on ZGC-20150317VUT with PID 17148 (D:\git\spring_boot_project_girl\target\classes started by Administrator in D:\git\spring_boot_project_girl)
+15:41:34.128 [main] INFO  GirlApplication [SpringApplication.java:663] - The following profiles are active: dev
+15:41:39.833 [main] INFO  PushMessageRocketMqProducer [PushMessageRocketMqProducer.java:86] - producer start successfully with group=pushMessageGroup, server=localhost:9876
+15:41:41.279 [main] INFO  GirlApplication [StartupInfoLogger.java:59] - Started GirlApplication in 7.464 seconds (JVM running for 10.755)
+15:43:20.399 [main] INFO  GirlApplication [StartupInfoLogger.java:50] - Starting GirlApplication on ZGC-20150317VUT with PID 10064 (D:\git\spring_boot_project_girl\target\classes started by Administrator in D:\git\spring_boot_project_girl)
+15:43:20.400 [main] INFO  GirlApplication [SpringApplication.java:663] - The following profiles are active: dev
+15:43:29.047 [main] INFO  PushMessageRocketMqProducer [PushMessageRocketMqProducer.java:86] - producer start successfully with group=pushMessageGroup, server=localhost:9876
+15:43:31.597 [main] INFO  GirlApplication [StartupInfoLogger.java:59] - Started GirlApplication in 11.589 seconds (JVM running for 13.207)
+15:57:16.900 [main] INFO  GirlApplication [StartupInfoLogger.java:50] - Starting GirlApplication on ZGC-20150317VUT with PID 3848 (D:\git\spring_boot_project_girl\target\classes started by Administrator in D:\git\spring_boot_project_girl)
+15:57:16.901 [main] INFO  GirlApplication [SpringApplication.java:663] - The following profiles are active: dev
+15:57:23.810 [main] INFO  PushMessageRocketMqProducer [PushMessageRocketMqProducer.java:86] - producer start successfully with group=pushMessageGroup, server=localhost:9876
+15:57:27.119 [main] INFO  GirlApplication [StartupInfoLogger.java:59] - Started GirlApplication in 10.54 seconds (JVM running for 12.078)
+15:57:45.103 [Thread-19] INFO  PushMessageRocketMqProducer [PushMessageRocketMqProducer.java:46] - send message topic=MYDmlMsgTopic, tag=Order, body={"orderId":"201901231557441"}
+15:58:46.203 [main] INFO  GirlApplication [StartupInfoLogger.java:50] - Starting GirlApplication on ZGC-20150317VUT with PID 17932 (D:\git\spring_boot_project_girl\target\classes started by Administrator in D:\git\spring_boot_project_girl)
+15:58:46.204 [main] INFO  GirlApplication [SpringApplication.java:663] - The following profiles are active: dev
+15:58:52.051 [main] INFO  PushMessageRocketMqProducer [PushMessageRocketMqProducer.java:86] - producer start successfully with group=pushMessageGroup, server=localhost:9876
+15:58:53.369 [main] INFO  GirlApplication [StartupInfoLogger.java:59] - Started GirlApplication in 7.471 seconds (JVM running for 9.004)
+16:39:09.796 [main] INFO  GirlApplication [StartupInfoLogger.java:50] - Starting GirlApplication on ZGC-20150317VUT with PID 15572 (D:\git\spring_boot_project_girl\target\classes started by Administrator in D:\git\spring_boot_project_girl)
+16:39:09.797 [main] INFO  GirlApplication [SpringApplication.java:663] - The following profiles are active: dev
+16:39:20.011 [main] INFO  PushMessageRocketMqProducer [PushMessageRocketMqProducer.java:86] - producer start successfully with group=pushMessageGroup, server=localhost:9876
+16:39:32.489 [main] INFO  PushMessageRocketMqProducer [PushMessageRocketMqProducer.java:75] - to destroy PushMessageRocketMqProducer
+16:40:43.227 [main] INFO  GirlApplication [StartupInfoLogger.java:50] - Starting GirlApplication on ZGC-20150317VUT with PID 16752 (D:\git\spring_boot_project_girl\target\classes started by Administrator in D:\git\spring_boot_project_girl)
+16:40:43.228 [main] INFO  GirlApplication [SpringApplication.java:663] - The following profiles are active: dev
+16:40:49.089 [main] INFO  PushMessageRocketMqProducer [PushMessageRocketMqProducer.java:86] - producer start successfully with group=pushMessageGroup, server=localhost:9876
+16:40:52.219 [main] INFO  PushMessageRocketMqProducer [PushMessageRocketMqProducer.java:75] - to destroy PushMessageRocketMqProducer
+16:49:32.359 [main] INFO  GirlApplication [StartupInfoLogger.java:50] - Starting GirlApplication on ZGC-20150317VUT with PID 6732 (D:\git\spring_boot_project_girl\target\classes started by Administrator in D:\git\spring_boot_project_girl)
+16:49:32.360 [main] INFO  GirlApplication [SpringApplication.java:663] - The following profiles are active: dev
+16:50:22.291 [main] INFO  GirlApplication [StartupInfoLogger.java:50] - Starting GirlApplication on ZGC-20150317VUT with PID 11080 (D:\git\spring_boot_project_girl\target\classes started by Administrator in D:\git\spring_boot_project_girl)
+16:50:22.292 [main] INFO  GirlApplication [SpringApplication.java:663] - The following profiles are active: dev
+16:50:27.370 [main] INFO  PushMessageRocketMqProducer [PushMessageRocketMqProducer.java:86] - producer start successfully with group=pushMessageGroup, server=localhost:9876
+16:50:27.627 [main] INFO  PushMessageRocketMqProducer [PushMessageRocketMqProducer.java:75] - to destroy PushMessageRocketMqProducer
+16:51:52.681 [main] INFO  GirlApplication [StartupInfoLogger.java:50] - Starting GirlApplication on ZGC-20150317VUT with PID 12808 (D:\git\spring_boot_project_girl\target\classes started by Administrator in D:\git\spring_boot_project_girl)
+16:51:52.682 [main] INFO  GirlApplication [SpringApplication.java:663] - The following profiles are active: dev
+16:51:58.931 [main] INFO  PushMessageRocketMqProducer [PushMessageRocketMqProducer.java:86] - producer start successfully with group=pushMessageGroup, server=localhost:9876
+16:52:01.308 [main] INFO  PushMessageRocketMqProducer [PushMessageRocketMqProducer.java:75] - to destroy PushMessageRocketMqProducer
+17:22:00.862 [main] INFO  GirlApplication [StartupInfoLogger.java:50] - Starting GirlApplication on ZGC-20150317VUT with PID 16832 (D:\git\spring_boot_project_girl\target\classes started by Administrator in D:\git\spring_boot_project_girl)
+17:22:00.863 [main] INFO  GirlApplication [SpringApplication.java:663] - The following profiles are active: dev
+17:22:31.022 [main] INFO  GirlApplication [StartupInfoLogger.java:50] - Starting GirlApplication on ZGC-20150317VUT with PID 15488 (D:\git\spring_boot_project_girl\target\classes started by Administrator in D:\git\spring_boot_project_girl)
+17:22:31.023 [main] INFO  GirlApplication [SpringApplication.java:663] - The following profiles are active: dev
+17:22:36.079 [main] INFO  PushMessageRocketMqProducer [PushMessageRocketMqProducer.java:86] - producer start successfully with group=pushMessageGroup, server=localhost:9876
+17:22:37.840 [main] INFO  PushMessageRocketMqProducer [PushMessageRocketMqProducer.java:75] - to destroy PushMessageRocketMqProducer
+17:24:47.921 [main] INFO  GirlApplication [StartupInfoLogger.java:50] - Starting GirlApplication on ZGC-20150317VUT with PID 5176 (D:\git\spring_boot_project_girl\target\classes started by Administrator in D:\git\spring_boot_project_girl)
+17:24:47.922 [main] INFO  GirlApplication [SpringApplication.java:663] - The following profiles are active: dev
+17:24:53.223 [main] INFO  PushMessageRocketMqProducer [PushMessageRocketMqProducer.java:86] - producer start successfully with group=pushMessageGroup, server=localhost:9876
+17:24:54.809 [main] INFO  PushMessageRocketMqProducer [PushMessageRocketMqProducer.java:75] - to destroy PushMessageRocketMqProducer
+17:29:01.477 [main] INFO  GirlApplication [StartupInfoLogger.java:50] - Starting GirlApplication on ZGC-20150317VUT with PID 11104 (D:\git\spring_boot_project_girl\target\classes started by Administrator in D:\git\spring_boot_project_girl)
+17:29:01.478 [main] INFO  GirlApplication [SpringApplication.java:663] - The following profiles are active: dev
+17:30:08.104 [main] INFO  GirlApplication [StartupInfoLogger.java:50] - Starting GirlApplication on ZGC-20150317VUT with PID 15820 (D:\git\spring_boot_project_girl\target\classes started by Administrator in D:\git\spring_boot_project_girl)
+17:30:08.105 [main] INFO  GirlApplication [SpringApplication.java:663] - The following profiles are active: dev
+17:30:12.909 [main] INFO  PushMessageRocketMqProducer [PushMessageRocketMqProducer.java:86] - producer start successfully with group=pushMessageGroup, server=localhost:9876
+17:30:14.688 [main] INFO  PushMessageRocketMqProducer [PushMessageRocketMqProducer.java:75] - to destroy PushMessageRocketMqProducer
+17:35:50.806 [main] INFO  GirlApplication [StartupInfoLogger.java:50] - Starting GirlApplication on ZGC-20150317VUT with PID 13536 (D:\git\spring_boot_project_girl\target\classes started by Administrator in D:\git\spring_boot_project_girl)
+17:35:50.807 [main] INFO  GirlApplication [SpringApplication.java:663] - The following profiles are active: dev
+17:35:55.652 [main] INFO  PushMessageRocketMqProducer [PushMessageRocketMqProducer.java:86] - producer start successfully with group=pushMessageGroup, server=localhost:9876
+17:35:57.672 [main] INFO  GirlApplication [StartupInfoLogger.java:59] - Started GirlApplication in 7.225 seconds (JVM running for 8.217)
+17:36:35.417 [DubboServerHandler-192.168.0.14:20880-thread-3] INFO  PushMessageRocketMqProducer [PushMessageRocketMqProducer.java:46] - send message topic=MYDmlMsgTopic, tag=Order, body={"orderId":"201901231736351"}

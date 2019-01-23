@@ -1,7 +1,7 @@
 package com.myboot.controller;
 
+import com.myboot.remote.api.OrderService;
 import com.myboot.service.Imp.OrderServiceImpl;
-import com.myboot.service.OrderService;
 import com.myboot.service.ThreadDemo;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;

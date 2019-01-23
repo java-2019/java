@@ -1,9 +1,6 @@
 package com.myboot.service.Imp;
 
 import com.myboot.event.OrderMessageEvent;
-import com.myboot.service.OrderService;
-import org.springframework.amqp.rabbit.core.RabbitTemplate;
-import org.springframework.amqp.rabbit.support.CorrelationData;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.ApplicationContext;
@@ -14,18 +11,23 @@ import org.springframework.data.redis.core.RedisCallback;
 import org.springframework.data.redis.core.RedisTemplate;
 import org.springframework.data.redis.core.StringRedisTemplate;
 import org.springframework.data.redis.core.types.Expiration;
-import org.springframework.stereotype.Service;
+import org.springframework.stereotype.Component;
 
 import javax.annotation.PostConstruct;
+import javax.naming.Name;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.concurrent.locks.Lock;
+
+import com.myboot.remote.api.OrderService;
+import org.springframework.stereotype.Service;
+
 
 /**
  * Created by majf
  * 2018/12/25 10:31
  */
-@Service
+@Service("orderService")
 public class OrderServiceImpl implements OrderService {
 
     @Autowired
